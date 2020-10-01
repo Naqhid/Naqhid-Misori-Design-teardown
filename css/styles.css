@@ -21,12 +21,16 @@ body {
   --bg-4: #494848;
 }
 
+.background-grey{
+  background-color: #d3d3d3;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 30px;
-  background-color: var(--bg-1);
+  background-color: gray;
   color: #fff;
 }
 
@@ -85,4 +89,160 @@ body {
   top: 15px;
   left: 8px;
   font-size: 25px;
+}
+
+.image-frame {
+  background-color: white;
+  border-radius: 5px;
+  position: relative;
+  width: 75.6px;
+  height: 75.6px;
+  margin-right: 30px;
+  transform: scale(1) rotateZ(calc(11 * -1deg));
+  transition: all 0.3s;
+}
+
+.hidden {
+  display: none;
+}
+
+.my-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 50%);
+}
+
+.my-item {
+  background-color: darkgray;
+  padding: 100px 50px;
+}
+
+.my-grid > :nth-child(odd) {
+  background-color: rgb(102, 102, 102);
+}
+
+.author figure {
+  display: flex;
+  align-items: center;
+}
+
+.icon-arrow img {
+  width: 50px;
+}
+
+
+.author figure img
+ {
+  background-color: gray;
+  position: absolute;
+  transform: scale(1) rotateZ(calc(11 * -1deg));
+  transition: all 0.3s;
+  top: 0;
+  bottom: 0;
+  margin: 5px;
+  left: 0;
+  right: 0;
+  width: 65.6px;
+  height: 65.6px;
+}
+
+.author-name {
+  font-size: large;
+}
+
+
+
+.title {
+  padding: 20px 0;
+  font-size: xx-large;
+  line-height: 45px;
+}
+
+.comments {
+  padding-bottom: 20px;
+}
+
+
+
+.image-frame:hover {
+  transform: scale(1) rotateZ(0);
+  transition: all 0.3s;
+}
+
+.explore img{
+  height: 240px;
+}
+
+.explore button{
+  border:none;
+  padding: 15px 100px;
+  border-radius: 11px;
+  margin-bottom: 10px;
+  
+}
+
+.second-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 1fr;
+  gap: 70px 10px;
+  margin-top: 50px;
+  padding: 0 50px;
+  position: relative;
+}
+
+#section-title{
+  justify-content: space-between;
+  color: black;
+  position: absolute;
+  transform: rotate(90deg) ;
+  z-index: 100;
+}
+
+article:hover .arrow{
+  background-color: gray;
+}
+
+.second-section article{
+  position: relative;
+  color: #000000;
+}
+
+.date{
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+.date span{
+  font-size: large;
+}
+
+.latest-posts h3{
+  text-decoration: underline;
+  margin: 10px 0 20px 0;
+  font-size: x-large;
+}
+
+.latest-posts{
+  padding: 40px;
+  transition: all 0.3s;
+}
+
+.latest-posts hover{
+  background-color: #fff;
+  transition: all 0.3s;
+  transform: scale(1.02);
+  box-shadow: 0 0 40px rgba(0,0,0, 0.15);
+  
+}
+
+.latest-posts author{
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.latest-posts author a{
+  margin-left: 5px;
+  text-decoration: underline;
+  color: #808080;
 }
