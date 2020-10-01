@@ -177,20 +177,20 @@ body {
   padding: 15px 100px;
   border-radius: 11px;
   margin-bottom: 10px;
-  
+
 }
 
-.second-section{
+.second-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.5fr 1fr 1fr;
+  /* grid-template-rows: 0.5fr 1fr 1fr; */
   gap: 70px 10px;
   margin-top: 50px;
   padding: 0 50px;
   position: relative;
 }
 
-#section-title{
+#section-title {
   justify-content: space-between;
   color: black;
   position: absolute;
@@ -198,7 +198,22 @@ body {
   z-index: 100;
 }
 
-article:hover .arrow{
+.arrow {
+  position: relative;
+  left: -40px;
+  bottom: -40px;
+  max-width: 150px;
+  text-align: center;
+  padding: 30px 0;
+  background-color: var(--bg-0);
+
+}
+
+.arrow img {
+  width: 30px;
+}
+
+article:hover .arrow {
   background-color: gray;
 }
 
@@ -207,42 +222,73 @@ article:hover .arrow{
   color: #000000;
 }
 
+.latest-posts {
+  padding: 40px;
+  transition: all 0.3s;
+}
+
 .date{
   color: gray;
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
 }
 
-.date span{
+.date span {
   font-size: large;
 }
 
-.latest-posts h3{
+.article-head {
   text-decoration: underline;
   margin: 10px 0 20px 0;
-  font-size: x-large;
+  font-size: 30px;
 }
 
-.latest-posts{
-  padding: 40px;
-  transition: all 0.3s;
-}
-
-.latest-posts hover{
+.latest-posts:hover {
   background-color: #fff;
   transition: all 0.3s;
   transform: scale(1.02);
   box-shadow: 0 0 40px rgba(0,0,0, 0.15);
-  
 }
 
-.latest-posts author{
+.latest-posts .author {
   margin-bottom: 10px;
   color: gray;
 }
 
-.latest-posts author a{
+.latest-posts .author a{
   margin-left: 5px;
   text-decoration: underline;
   color: #808080;
+}
+
+.second-desc {
+  line-height: 1.8;
+  font-size: 20px;
+  margin: 10px 0;
+
+}
+
+.advertisements {
+
+}
+
+.explore {
+  background-color: var(--bg-1);
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  min-height: 700px;
+}
+
+.explore > * {
+  margin-top: 15px;
+}
+
+.explore-btn {
+  background-color: var(--bg-3);
+}
+
+.full-row {
+  grid-column: span 3;
+  padding: 40px 0;
 }
