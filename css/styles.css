@@ -1,63 +1,88 @@
-/* resere */
-
-*::before,
-*,
-*::after {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Patua One", cursive;
-    padding: 0;
-}
-
-ul {
-    list-style: none;
-}
-
-body{
-   position: relative;
-   /*color: #fff;*/
-   max-width: 1440px;
-   margin: 0 auto;
-   font-family: "Patua One", cursive;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Patua One", cursive;
+  padding: 0;
+  list-style: none;
 
 }
 
-header nav{
-    display: flex;
-    align-items: center;
+/* color variables - different shades of grey */
 
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  color: #fff;
+
+  --bg-0: #d4d4d4;
+  --bg-1: #b4b4b4;
+  --bg-2: #909090;
+  --bg-3: #636363;
+  --bg-4: #494848;
 }
 
-header nav ul{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding-right: 50px;
-    justify-content: space-between;
-
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  background-color: var(--bg-1);
+  color: #fff;
 }
 
-header nav ul button{
-    background-color: lightgrey;
-    border: none;
-    border-radius: 15px;
-    padding: 15px;
+.smash-logo svg {
+  width: 200px;
+  background-color: var(--bg-3);
 }
 
-header .smash-logo{
-    background-color: rgb(39, 39, 39);
-    height: 50px;
+.nav {
+  display: flex;
 }
 
-a{
-    color: gray;
-    text-decoration: none;
+.nav-item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--bg-2);
+  margin: 0 5px;
+  border-radius: 5px;
 }
 
-input{
-    font-size: 25px;
-    outline: none;
-    padding-inline-start: 15px;
-    border: none;
-    border-radius: 15px;
+.more {
+  flex: 3;
+  margin-left: 30px;
+  background-color: var(--bg-3);
+}
+
+.more-btn {
+  background-color: var(--bg-3);
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.more-btn .iconify {
+  font-size: 20px;
+}
+
+.top-search {
+  position: relative;
+}
+.top-search input {
+  outline: none;
+  padding: 15px 5px 15px 40px;
+  border: none;
+  border-radius: 15px;
+  background-color: var(--bg-3);
+  font-size: 20px;
+  color: #fff;
+}
+
+.top-search .iconify {
+  position: absolute;
+  top: 15px;
+  left: 8px;
+  font-size: 25px;
 }
