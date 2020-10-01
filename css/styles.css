@@ -1,0 +1,63 @@
+/* resere */
+
+*::before,
+*,
+*::after {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Patua One", cursive;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body{
+   position: relative;
+   /*color: #fff;*/
+   max-width: 1440px;
+   margin: 0 auto;
+   font-family: "Patua One", cursive;
+
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-right: 50px;
+    justify-content: space-between;
+
+}
+
+header nav ul button{
+    background-color: lightgrey;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+header .smash-logo{
+    background-color: rgb(39, 39, 39);
+    height: 50px;
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+}
+
+input{
+    font-size: 25px;
+    outline: none;
+    padding-inline-start: 15px;
+    border: none;
+    border-radius: 15px;
+}
