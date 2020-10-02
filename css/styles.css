@@ -538,3 +538,42 @@ article:hover .arrow {
   padding: 10px;
   margin: 30px auto 50px;
 }
+
+footer{
+  display: flex;
+  text-align: center;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  min-height: 300px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #d3d3d3;
+  font-weight: 900;
+}
+
+.f-link,.f-nav{
+margin: auto;
+margin-bottom: 50px;
+line-height: 30px;
+display: flex;
+width: 60%;
+flex-wrap: wrap;
+list-style: circle;
+justify-content: center;
+text-align: center;
+
+}
+.f-nav{
+  list-style: none;
+  margin-block-end: 30px;
+}
+
+.f-nav li, .f-link li:not(:last-child){
+  margin-right: 25px;
+}
+
+footer a{
+  color: #fff;
+}
