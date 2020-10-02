@@ -10,7 +10,7 @@ A grayscale heatmap of smashing magazine at vw of 1440px
 - CSS 3
 - Font awesome icons
 
- <img src="./assets/images/Screenshot (4).jpg">
+ <img src="assets/images/sm.png" />
 
 
 ## Live Demo
