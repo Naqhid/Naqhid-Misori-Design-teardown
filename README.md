@@ -1,18 +1,18 @@
 # AppleClone_project
 
-Simple Web Page Clone Using HTML & CSS
+A grayscale heatmap of smashing magazine at vw of 1440px
 
 ## Built With
 
 - HTML
 - CSS 3
 
- <img src="./assets/img/screenshot.jpg"> 
+ <img src="./assets/img/screenshot.jpg">
 
 
 ## Live Demo
 
-[Live Demo Link](https://davidosky007.github.io/Naqhid_David_css_positioning/)
+[Live Demo Link]()
 
 ## Getting Started
 
@@ -28,15 +28,17 @@ To get local copy up and running just clone the Repository.
 
 :bust_in_silhouette: **Author2**
 
-- GitHub: [@davidosky007](https://github.com/davidosky007)
-- Twitter: [@davidosky2](https://twitter.com/Davidosky2)
-- LinkedIn: [David Bassey](https://www.linkedin.com/in/david-bassey-2b9671199/)
+👤 **Misori Simon**
+
+  - GitHub: [Misori-simon](https://github.com/Misori-simon/)
+  - Twitter: [@misori_simon](https://twitter.com/misori_simon)
+  - LinkedIn: [Misori Simon](https://cm.linkedin.com/in/misori-simon-05906219b)
 
 ## :handshake: Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Davidosky007/Naqhid_David_css_positioning/issues).
+Feel free to check the [issues page](https://github.com/Naqhid/Naqhid-Misori-Design-teardown/issues).
 
 ## Show your support
 
@@ -44,9 +46,9 @@ Give a :star: if you like this project
 
 ## Acknowledgments
 
-- [Font-awesome](https://fontawesome.com/) for it's Awesome Icons
+- [Font-awesome](https://iconify.com/) for it's Awesome Icons
 - [Google Fonts](https://fonts.google.com/) for it's Amazing Fonts
 
 ## License
 
-This page is [MIT](https://github.com/davidosky007) licence
+This page is [MIT](./LICENSE) licence
