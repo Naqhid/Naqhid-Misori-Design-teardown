@@ -1,4 +1,6 @@
-# AppleClone_project
+# Design-Teardown
+
+This is a clone website of Smashing Magazine. 
 
 A grayscale heatmap of smashing magazine at vw of 1440px
 
@@ -6,17 +8,23 @@ A grayscale heatmap of smashing magazine at vw of 1440px
 
 - HTML
 - CSS 3
+- Font awesome icons
 
  <img src="./assets/img/screenshot.jpg">
 
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://naqhid.github.io/Naqhid-Misori-Design-teardown/)
 
 ## Getting Started
 
 To get local copy up and running just clone the Repository.
+
+## Linters
+
+run npm install .
+run npm run test to check the html and css files
 
 ## Authors
 
